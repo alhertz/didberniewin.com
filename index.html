@@ -4,9 +4,67 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Did Bernie Sanders Win?</title>
-  <meta name="description" content="The HTML5 Herald">
+  <title>Did Sanders Win?</title>
+  <meta property="og:title" content="Did Sanders Win?"/>
+  <meta property="og:image" content="http://didsanderswin.com/og-thumb.jpg"/>
+  <meta property="og:site_name" content="Did Sanders Win?"/>
+
   <style>
+  /* http://meyerweb.com/eric/tools/css/reset/
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    ol, ul {
+      list-style: none;
+    }
+
+    blockquote, q {
+      quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
     body,
     html {
       height: 100%;
@@ -29,6 +87,14 @@
       margin-bottom: 0;
     }
 
+    .logo {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      margin-left: -50px;
+      width: 100px;
+    }
+
     .island {
       max-width: 640px;
       margin: 0 auto;
@@ -43,6 +109,9 @@
 </head>
 
 <body>
+  <a href="http://berniesanders.com/donate">
+    <img class="logo" src="logo.jpg">
+  </a>
   <section class="island">
     <h1>Yes!</h1>
     <p>Bernie won in Wisconson with 56.6% percent of the vote.</p>
